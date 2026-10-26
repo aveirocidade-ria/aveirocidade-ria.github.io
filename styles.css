@@ -15,3 +15,9 @@
 
 /* Public research dossier, Oct 2026 */
 .research-entries{display:grid;gap:0;margin:24px 0 35px;border-top:1px solid #ddd7d0}.research-entries article{padding:22px 0;border-bottom:1px solid #ddd7d0}.research-entries article time{color:#9e6870;font-size:.82rem;font-weight:700;letter-spacing:.04em}.research-entries article h3{font-weight:700;font-size:1.08rem;margin:5px 0 9px}.research-entries article p{margin:0 0 10px}.research-entries article a,#land-boundaries>a,#environmental-evidence a{color:#456d61;text-underline-offset:3px}.research-entries article a:hover,#land-boundaries>a:hover,#environmental-evidence a:hover{color:#9b5964}
+
+/* Clearer first-screen project summary on mobile */
+.hero-content p{max-width:640px;font-family:'DM Sans',Arial,sans-serif;font-size:clamp(1.02rem,1.5vw,1.24rem);font-weight:500;line-height:1.65;color:#283b36}
+.hero h1{max-width:820px;font-size:clamp(2.25rem,5vw,4.75rem);line-height:1.12}
+.hero-overlay{background:linear-gradient(90deg,rgba(251,248,244,.97),rgba(251,248,244,.87) 45%,rgba(251,248,244,.27) 100%)}
+@media(max-width:800px){.hero{min-height:690px;align-items:flex-start;background-position:60% 48%}.hero-content{padding-top:42px;padding-bottom:62px}.hero h1{font-size:clamp(2.2rem,9vw,3.25rem)}.hero-content p{font-size:1.03rem;line-height:1.55;max-width:100%}.hero-overlay{background:linear-gradient(180deg,rgba(251,248,244,.98) 0%,rgba(251,248,244,.93) 67%,rgba(251,248,244,.4) 100%)}}
