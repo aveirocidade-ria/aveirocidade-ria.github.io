@@ -12,3 +12,6 @@
 .hero-content{padding-top:25px;padding-bottom:100px;transform:translateY(-10px)}
 .hero-content p{color:#25322e;max-width:515px}
 @media(max-width:800px){.hero{align-items:flex-start;min-height:575px;background-position:62% 42%}.hero-overlay{background:linear-gradient(180deg,rgba(251,248,244,.96),rgba(251,248,244,.88) 54%,rgba(251,248,244,.12))}.hero-content{padding-top:35px;padding-bottom:35px;transform:none}.hero-content p{font-size:1.08rem;line-height:1.55}}
+
+/* Public research dossier, Oct 2026 */
+.research-entries{display:grid;gap:0;margin:24px 0 35px;border-top:1px solid #ddd7d0}.research-entries article{padding:22px 0;border-bottom:1px solid #ddd7d0}.research-entries article time{color:#9e6870;font-size:.82rem;font-weight:700;letter-spacing:.04em}.research-entries article h3{font-weight:700;font-size:1.08rem;margin:5px 0 9px}.research-entries article p{margin:0 0 10px}.research-entries article a,#land-boundaries>a,#environmental-evidence a{color:#456d61;text-underline-offset:3px}.research-entries article a:hover,#land-boundaries>a:hover,#environmental-evidence a:hover{color:#9b5964}
