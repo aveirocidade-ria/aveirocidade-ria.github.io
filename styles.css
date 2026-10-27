@@ -33,3 +33,12 @@
 
 /* On-site story and the author's note */
 .on-site,.about-author{scroll-margin-top:100px}.on-site .lead{max-width:880px}.on-site h3{margin-top:28px;font-size:clamp(1.4rem,2.4vw,2rem)}.on-site p,.about-author p{max-width:900px;line-height:1.8}.on-site .reference-strip{margin:24px 0 30px;flex-wrap:wrap}.about-author{border-top:1px solid #e8d9d1;padding-top:55px;padding-bottom:65px}.about-author h2{max-width:900px}.about-author strong,.on-site strong{color:#35463d}.research-entries article p strong{font-weight:750}
+
+/* Antiga Lota field photographs, October 2026 */
+.antiga-lota-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:42px 0 50px}
+.antiga-lota-gallery figure{margin:0;min-width:0}
+.antiga-lota-gallery img{width:100%;height:330px;object-fit:cover;border-radius:13px;display:block}
+.antiga-lota-gallery .gallery-wide{grid-column:1/-1}
+.antiga-lota-gallery .gallery-wide img{height:min(58vw,560px)}
+.antiga-lota-gallery figcaption{font-size:.91rem;color:#58635e;line-height:1.5;margin:10px 3px 0}
+@media(max-width:740px){.antiga-lota-gallery{grid-template-columns:1fr;gap:26px;margin:28px 0 40px}.antiga-lota-gallery img,.antiga-lota-gallery .gallery-wide img{height:auto;max-height:540px;object-fit:contain;background:#edeae5}}
