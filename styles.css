@@ -109,3 +109,11 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 #site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:none!important;border-radius:9px!important}
 #site-today figure.site-today-photo figcaption,#site-map figure.site-map-landscape figcaption{font-size:.8rem!important;line-height:1.4!important;margin-top:7px!important}
 @media(max-width:760px){#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:100%!important;max-width:360px!important;margin:18px auto!important}}
+
+/* Balanced About layout: complete uncropped bird image below heading */
+.intro.intro-with-birds{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)!important;align-items:stretch!important;column-gap:clamp(30px,5vw,68px)!important}
+.intro.intro-with-birds>div:first-child{display:flex;flex-direction:column;min-width:0}
+.intro.intro-with-birds .migration-photo{position:static!important;grid-column:auto!important;align-self:stretch;width:100%!important;max-width:none!important;margin:22px 0 0!important}
+.intro.intro-with-birds .migration-photo img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:transparent!important;border-radius:10px}
+.intro.intro-with-birds .migration-photo figcaption{font-size:.8rem!important;line-height:1.45!important;margin:9px 0 0!important}
+@media(max-width:760px){.intro.intro-with-birds{display:flex!important;flex-direction:column!important;gap:24px!important}.intro.intro-with-birds .migration-photo{max-width:100%!important;margin:18px 0 0!important}}
