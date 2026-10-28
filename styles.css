@@ -118,3 +118,8 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 .intro-with-birds .migration-photo img{width:100%!important;height:215px!important;max-height:215px!important;object-fit:cover!important;object-position:center 55%;border-radius:10px}
 .intro-with-birds .migration-photo figcaption{font-size:.78rem;line-height:1.48;margin-top:8px}
 @media(max-width:760px){.intro-with-birds{display:flex!important;flex-direction:column!important;gap:20px!important}.intro-with-birds .migration-photo{max-width:330px!important;margin:16px auto 0!important}.intro-with-birds .migration-photo img{height:175px!important;max-height:175px!important}}
+
+/* Wide, shallow panoramic image aligned to the article text */
+#site-today figure.site-today-photo{width:100%!important;max-width:100%!important;margin:22px 0 24px!important}
+#site-today figure.site-today-photo img{width:100%!important;height:clamp(200px,23vw,270px)!important;max-height:270px!important;object-fit:cover!important;object-position:center 70%!important}
+@media(max-width:760px){#site-today figure.site-today-photo{width:100%!important;max-width:100%!important;margin:18px 0 20px!important}#site-today figure.site-today-photo img{height:175px!important;max-height:175px!important}}
