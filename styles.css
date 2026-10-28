@@ -71,3 +71,9 @@ html[lang="en"] .on-site .lang-pt.site-today-layout,html[lang="pt"] .on-site .la
 @media(max-width:800px){.ria-manifesto{background-position:48% center}.ria-manifesto-shade{background:linear-gradient(180deg,rgba(250,249,243,.92),rgba(250,249,243,.83) 72%,rgba(250,249,243,.62))}.ria-manifesto h2,.ria-manifesto p{color:#20382f}}
 /* Ensure image appears immediately after the site story heading on narrow screens */
 @media(max-width:800px){.on-site .site-today-layout .site-today-photo{order:1;display:block;margin:0 0 10px}.on-site .site-today-layout .site-today-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 55%}.on-site .site-today-layout .site-today-text p{order:2}}
+
+/* Readability: About this project at editorial body size */
+.intro p{font-size:clamp(1.07rem,1.3vw,1.2rem);line-height:1.78}
+.intro .disclaimer{font-size:clamp(1.02rem,1.2vw,1.13rem);line-height:1.72}
+.intro strong{font-weight:750;color:#35463d}
+@media(max-width:800px){.intro p{font-size:1.08rem;line-height:1.75}.intro .disclaimer{font-size:1.05rem}}
