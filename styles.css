@@ -123,3 +123,8 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 #site-today figure.site-today-photo{width:100%!important;max-width:100%!important;margin:22px 0 24px!important}
 #site-today figure.site-today-photo img{width:100%!important;height:clamp(200px,23vw,270px)!important;max-height:270px!important;object-fit:cover!important;object-position:center 70%!important}
 @media(max-width:760px){#site-today figure.site-today-photo{width:100%!important;max-width:100%!important;margin:18px 0 20px!important}#site-today figure.site-today-photo img{height:175px!important;max-height:175px!important}}
+
+/* Match the second horizontal photo to the full article width */
+#site-map figure.site-map-landscape{width:100%!important;max-width:100%!important;margin:22px 0 24px!important}
+#site-map figure.site-map-landscape img{width:100%!important;height:clamp(200px,23vw,270px)!important;max-height:270px!important;object-fit:cover!important;object-position:center 65%!important}
+@media(max-width:760px){#site-map figure.site-map-landscape{width:100%!important;max-width:100%!important;margin:18px 0 20px!important}#site-map figure.site-map-landscape img{height:175px!important;max-height:175px!important}}
