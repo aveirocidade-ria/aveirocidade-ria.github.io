@@ -142,3 +142,10 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 .feature-grid figure{width:100%;max-width:690px;margin:0 auto!important;min-width:0}
 .feature-grid figure img{display:block;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
 @media(max-width:760px){.feature-grid figure{max-width:100%;margin:0!important}.feature-grid figure img{height:auto!important;max-height:none!important}}
+
+/* Balanced, uncropped photo sizes — three article sections */
+#antiga .feature-grid figure{width:100%!important;max-width:490px!important;margin:0 auto!important}
+#antiga .feature-grid figure img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:transparent!important}
+#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:100%!important;max-width:600px!important;margin:22px auto 24px!important}
+#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:transparent!important}
+@media(max-width:760px){#antiga .feature-grid figure,#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:100%!important;max-width:100%!important;margin:18px auto!important}}
