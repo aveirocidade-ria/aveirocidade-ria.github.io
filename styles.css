@@ -52,3 +52,8 @@
 .about-author p,.feature-text p,.on-site p,.map-evidence p{font-size:clamp(1.07rem,1.3vw,1.2rem);line-height:1.78}
 .lota-map-links{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.lota-map-links a{display:inline-flex;align-items:center;border:1px solid #aab9b1;background:#fff;border-radius:50px;padding:10px 16px;text-decoration:none;color:#345e53;font-weight:650;font-size:.95rem}.lota-map-links a:hover{background:#eef4f0}
 @media(max-width:800px){.ria-manifesto{min-height:380px}.ria-manifesto-inner{padding-top:65px;padding-bottom:65px}.ria-manifesto-shade{background:rgba(19,39,35,.72)}.about-author .about-layout:not([hidden]){display:flex;flex-direction:column;gap:20px}.about-author .about-copy{display:contents}.about-photo{position:static;order:1;width:100%}.about-photo img{height:auto;max-height:460px;object-fit:cover}.about-copy h2{order:0}.about-copy p{order:2}.about-author p,.feature-text p,.on-site p,.map-evidence p{font-size:1.08rem;line-height:1.75}}
+
+/* Keep bilingual panels exclusive after introducing grid layouts */
+html[lang="en"] .about-author .lang-pt.about-layout,html[lang="pt"] .about-author .lang-en.about-layout{display:none!important}
+html[lang="en"] .about-author .lang-en.about-layout,html[lang="pt"] .about-author .lang-pt.about-layout{display:grid}
+@media(max-width:800px){html[lang="en"] .about-author .lang-en.about-layout,html[lang="pt"] .about-author .lang-pt.about-layout{display:flex}}
