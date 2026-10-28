@@ -117,3 +117,35 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 .intro.intro-with-birds .migration-photo img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:transparent!important;border-radius:10px}
 .intro.intro-with-birds .migration-photo figcaption{font-size:.8rem!important;line-height:1.45!important;margin:9px 0 0!important}
 @media(max-width:760px){.intro.intro-with-birds{display:flex!important;flex-direction:column!important;gap:24px!important}.intro.intro-with-birds .migration-photo{max-width:100%!important;margin:18px 0 0!important}}
+
+/* Editorial layout review — unified 2026-10-28 */
+/* Calm single-column statement. Title spans the same text measure as the paragraphs. */
+.manifesto .container.manifesto-grid{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:8px!important;max-width:960px!important;padding-top:0;padding-bottom:0}
+.manifesto .manifesto-grid>div{width:100%!important;max-width:100%!important;min-width:0!important}
+.manifesto .manifesto-grid h2{font-size:clamp(2rem,3.5vw,3.2rem)!important;line-height:1.17!important;max-width:920px!important;margin:10px 0 22px!important}
+.manifesto .manifesto-grid p{max-width:850px!important;font-size:clamp(1.05rem,1.3vw,1.19rem)!important;line-height:1.72!important}
+.manifesto .manifesto-grid .footnote{font-size:.9rem!important}
+/* Feature: a restrained image of the actual old port with its whole composition visible. */
+#antiga .feature-grid{align-items:start!important;gap:clamp(22px,3vw,42px)!important}
+#antiga .feature-grid figure{max-width:460px!important;width:100%!important;margin:0 auto!important;align-self:start!important}
+#antiga .feature-grid figure img{display:block!important;width:100%!important;height:auto!important;max-height:360px!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
+/* Two documentary photos: naturally proportioned, no grey letterbox. */
+#site-today .antiga-lota-gallery{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;align-items:start!important;gap:18px!important;margin:26px 0 18px!important}
+#site-today .antiga-lota-gallery figure{display:block!important;width:100%!important;max-width:100%!important;min-width:0!important;grid-column:auto!important;margin:0!important;background:transparent!important}
+#site-today .antiga-lota-gallery img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
+#site-today .antiga-lota-gallery figcaption{font-size:.83rem!important;line-height:1.5!important;margin:8px 0 0!important}
+/* Natural wide field photos belong to the page, but should not dominate it. */
+#site-today figure.site-today-photo,#site-map figure.site-map-landscape{display:block!important;float:none!important;position:static!important;width:min(100%,550px)!important;max-width:550px!important;margin:22px auto 18px!important;padding:0!important;box-sizing:border-box!important}
+#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
+/* Three informative topics, presented as non-interactive journal notes. */
+#nature .cards{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important;align-items:start!important;margin-top:30px!important}
+#nature .cards .card{display:flex!important;flex-direction:column!important;min-width:0!important;border:none!important;border-top:2px solid #ccd8d0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;cursor:default!important;overflow:visible!important;padding:14px 0 0!important;transform:none!important}
+#nature .cards .card img{display:block!important;width:100%!important;height:145px!important;max-height:145px!important;object-fit:cover!important;object-position:center 78%!important;border-radius:8px!important;background:transparent!important;pointer-events:none!important}
+#nature .cards .card>div{padding:14px 0 0!important}
+#nature .cards .card h3{margin:0 0 8px!important;font-size:1.14rem!important}
+#nature .cards .card p{font-size:.92rem!important;line-height:1.58!important}
+/* Balanced field-photo by the project introduction. */
+.intro.intro-with-birds{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)!important;gap:clamp(26px,4vw,60px)!important;align-items:start!important}
+.intro.intro-with-birds .migration-photo{max-width:none!important;width:100%!important;margin:18px 0 0!important}
+.intro.intro-with-birds .migration-photo img{height:auto!important;max-height:none!important;width:100%!important;object-fit:contain!important;aspect-ratio:auto!important}
+@media(max-width:760px){.manifesto .container.manifesto-grid{display:flex!important;gap:4px!important}.manifesto .manifesto-grid h2{font-size:clamp(1.85rem,7vw,2.4rem)!important}.intro.intro-with-birds{display:flex!important;flex-direction:column!important;gap:20px!important}#nature .cards{grid-template-columns:1fr!important;gap:20px!important}#nature .cards .card{display:grid!important;grid-template-columns:120px minmax(0,1fr)!important;gap:14px!important;align-items:start!important}#nature .cards .card img{height:100px!important;max-height:100px!important;object-position:center 70%!important}#nature .cards .card>div{padding:0!important}#site-today .antiga-lota-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}#site-today .antiga-lota-gallery figcaption{font-size:.75rem!important}#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:min(100%,440px)!important;margin:18px auto!important}}
