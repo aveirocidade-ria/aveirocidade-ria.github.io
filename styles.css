@@ -63,3 +63,11 @@ html[lang="en"] .about-author .lang-en.about-layout,html[lang="pt"] .about-autho
 .on-site .site-today-text{min-width:0}.on-site .site-today-photo{margin:0;align-self:start;position:sticky;top:108px}.on-site .site-today-photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px}.on-site .site-today-photo figcaption{font-size:.84rem;line-height:1.5;color:#5a625f;margin:10px 0 0}
 html[lang="en"] .on-site .lang-pt.site-today-layout,html[lang="pt"] .on-site .lang-en.site-today-layout{display:none!important}
 @media(max-width:800px){html[lang="en"] .on-site .lang-en.site-today-layout,html[lang="pt"] .on-site .lang-pt.site-today-layout{display:flex;flex-direction:column;gap:22px}.on-site .site-today-text{display:contents}.on-site .site-today-text h2{order:0}.on-site .site-today-photo{position:static;order:1;width:100%}.on-site .site-today-text p{order:2}.on-site .site-today-photo img{max-height:420px;object-fit:cover}}
+
+/* Oct 28 – lighter, nature-forward manifesto; clear legibility on mobile */
+.ria-manifesto{background-image:url('assets/antiga-lota-2026-IMG_2823.jpeg');background-position:center 54%;background-color:#d5ded5;color:#22382f}
+.ria-manifesto-shade{background:linear-gradient(90deg,rgba(251,249,242,.91) 0%,rgba(251,249,242,.81) 50%,rgba(251,249,242,.42) 100%)}
+.ria-manifesto h2,.ria-manifesto p{color:#21362f}.ria-manifesto .section-kicker,.ria-manifesto-credit{color:#354d42}.ria-manifesto strong{color:#203f33}
+@media(max-width:800px){.ria-manifesto{background-position:48% center}.ria-manifesto-shade{background:linear-gradient(180deg,rgba(250,249,243,.92),rgba(250,249,243,.83) 72%,rgba(250,249,243,.62))}.ria-manifesto h2,.ria-manifesto p{color:#20382f}}
+/* Ensure image appears immediately after the site story heading on narrow screens */
+@media(max-width:800px){.on-site .site-today-layout .site-today-photo{order:1;display:block;margin:0 0 10px}.on-site .site-today-layout .site-today-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 55%}.on-site .site-today-layout .site-today-text p{order:2}}
