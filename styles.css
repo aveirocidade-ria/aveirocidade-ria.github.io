@@ -42,3 +42,13 @@
 .antiga-lota-gallery .gallery-wide img{height:min(58vw,560px)}
 .antiga-lota-gallery figcaption{font-size:.91rem;color:#58635e;line-height:1.5;margin:10px 3px 0}
 @media(max-width:740px){.antiga-lota-gallery{grid-template-columns:1fr;gap:26px;margin:28px 0 40px}.antiga-lota-gallery img,.antiga-lota-gallery .gallery-wide img{height:auto;max-height:540px;object-fit:contain;background:#edeae5}}
+
+/* October 2026: editorial redesign, author photographs */
+.ria-manifesto{position:relative;isolation:isolate;background:#354a43 url('assets/antiga-lota-2026-IMG_2826.jpeg') center 55%/cover no-repeat;color:#fff;min-height:440px;display:flex;align-items:center;scroll-margin-top:90px}
+.ria-manifesto-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(19,39,35,.83),rgba(19,39,35,.66) 60%,rgba(19,39,35,.36))}
+.ria-manifesto-inner{padding-top:90px;padding-bottom:85px;width:100%}.ria-manifesto h2{color:#fff;font-size:clamp(2.3rem,5vw,4.4rem);line-height:1.14;max-width:860px;margin:12px 0 25px}.ria-manifesto p{max-width:780px;color:#fff;font-size:clamp(1.12rem,1.8vw,1.38rem);line-height:1.7}.ria-manifesto .section-kicker,.ria-manifesto-credit{color:#f5e6dc}.ria-manifesto-credit{display:block;margin-top:32px;font-size:.78rem;letter-spacing:.025em}
+.about-author .about-layout{grid-template-columns:minmax(0,1.55fr) minmax(260px,1fr);align-items:start;gap:clamp(26px,5vw,70px)}
+.about-author .about-layout:not([hidden]){display:grid}.about-author .about-copy{min-width:0}.about-photo{margin:0;position:sticky;top:110px}.about-photo img{display:block;width:100%;height:min(62vw,650px);object-fit:cover;object-position:center;border-radius:13px}.about-photo figcaption{font-size:.85rem;line-height:1.5;color:#58635e;margin-top:10px}
+.about-author p,.feature-text p,.on-site p,.map-evidence p{font-size:clamp(1.07rem,1.3vw,1.2rem);line-height:1.78}
+.lota-map-links{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.lota-map-links a{display:inline-flex;align-items:center;border:1px solid #aab9b1;background:#fff;border-radius:50px;padding:10px 16px;text-decoration:none;color:#345e53;font-weight:650;font-size:.95rem}.lota-map-links a:hover{background:#eef4f0}
+@media(max-width:800px){.ria-manifesto{min-height:380px}.ria-manifesto-inner{padding-top:65px;padding-bottom:65px}.ria-manifesto-shade{background:rgba(19,39,35,.72)}.about-author .about-layout:not([hidden]){display:flex;flex-direction:column;gap:20px}.about-author .about-copy{display:contents}.about-photo{position:static;order:1;width:100%}.about-photo img{height:auto;max-height:460px;object-fit:cover}.about-copy h2{order:0}.about-copy p{order:2}.about-author p,.feature-text p,.on-site p,.map-evidence p{font-size:1.08rem;line-height:1.75}}
