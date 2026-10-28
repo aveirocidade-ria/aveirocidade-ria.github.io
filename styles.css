@@ -102,3 +102,12 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 
 /* Modest horizontal field photograph for geographical context */
 .site-map-landscape{margin:24px 0 18px;max-width:800px}.site-map-landscape img{display:block;width:100%;height:clamp(185px,24vw,285px);object-fit:cover;object-position:center 58%;border-radius:12px}.site-map-landscape figcaption{font-size:.85rem;color:#58635e;line-height:1.55;margin:9px 2px 0}@media(max-width:760px){.site-map-landscape{margin:18px 0 16px}.site-map-landscape img{height:190px}}
+
+/* Final compact inline editorial images — override earlier full-width rules */
+#site-today figure.site-today-photo,
+#site-map figure.site-map-landscape{box-sizing:border-box!important;display:block!important;float:none!important;position:static!important;width:min(100%,540px)!important;max-width:540px!important;margin:24px auto 22px!important;padding:0!important;min-width:0!important}
+#site-today figure.site-today-photo img,
+#site-map figure.site-map-landscape img{display:block!important;box-sizing:border-box!important;width:100%!important;height:190px!important;max-height:190px!important;min-height:0!important;aspect-ratio:auto!important;object-fit:cover!important;object-position:center 65%!important;border-radius:10px!important}
+#site-today figure.site-today-photo figcaption,
+#site-map figure.site-map-landscape figcaption{margin:8px 0 0!important;font-size:.82rem!important;line-height:1.45!important}
+@media(max-width:760px){#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:min(100%,390px)!important;max-width:390px!important;margin:18px auto!important}#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{height:145px!important;max-height:145px!important}}
