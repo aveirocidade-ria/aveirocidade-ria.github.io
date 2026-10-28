@@ -137,3 +137,8 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 #site-today .antiga-lota-gallery figure{width:100%!important;min-width:0!important;margin:0!important;grid-column:auto!important}
 #site-today .antiga-lota-gallery img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
 @media(max-width:760px){#site-today .antiga-lota-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}#site-today figure.site-today-photo,#site-map figure.site-map-landscape{margin:16px 0!important}}
+
+/* Featured Antiga Lota photo: show full original, never crop buildings */
+.feature-grid figure{width:100%;max-width:690px;margin:0 auto!important;min-width:0}
+.feature-grid figure img{display:block;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
+@media(max-width:760px){.feature-grid figure{max-width:100%;margin:0!important}.feature-grid figure img{height:auto!important;max-height:none!important}}
