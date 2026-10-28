@@ -164,3 +164,13 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 .invitation .invitation-grid h2{max-width:900px!important;margin:10px 0 22px!important;font-size:clamp(1.9rem,3.5vw,3.1rem)!important;line-height:1.2!important}
 .invitation .invitation-grid p{max-width:850px!important;line-height:1.75!important}
 .invitation .invitation-grid p.footnote{max-width:850px!important}
+
+/* Decision-maker profiles: readable narrative, not a second timeline */
+#decisions .decision-actors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:32px 0 28px}
+#decisions .decision-actor{padding:25px 27px;background:#f7f5f0;border:1px solid #e7e3db;border-radius:12px;min-width:0}
+#decisions .decision-actor h3{font-size:1.25rem;line-height:1.4;margin:0 0 13px}
+#decisions .decision-actor p{font-size:.98rem;line-height:1.72;color:#4b5653;margin:0 0 13px}
+#decisions .decision-actor .actor-source{font-size:.79rem;margin-top:20px;line-height:1.7}
+#decisions .decision-actor a{text-decoration:underline;text-underline-offset:3px}
+#decisions .decision-actor:last-child{grid-column:1/-1}
+@media(max-width:780px){#decisions .decision-actors{grid-template-columns:1fr;gap:15px}#decisions .decision-actor{padding:20px}#decisions .decision-actor:last-child{grid-column:auto}}
