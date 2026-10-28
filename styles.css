@@ -57,3 +57,9 @@
 html[lang="en"] .about-author .lang-pt.about-layout,html[lang="pt"] .about-author .lang-en.about-layout{display:none!important}
 html[lang="en"] .about-author .lang-en.about-layout,html[lang="pt"] .about-author .lang-pt.about-layout{display:grid}
 @media(max-width:800px){html[lang="en"] .about-author .lang-en.about-layout,html[lang="pt"] .about-author .lang-pt.about-layout{display:flex}}
+
+/* Not an empty piece of land — editorial photo alongside text */
+.on-site .site-today-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);column-gap:clamp(24px,4vw,62px);align-items:start}
+.on-site .site-today-text{min-width:0}.on-site .site-today-photo{margin:0;align-self:start;position:sticky;top:108px}.on-site .site-today-photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px}.on-site .site-today-photo figcaption{font-size:.84rem;line-height:1.5;color:#5a625f;margin:10px 0 0}
+html[lang="en"] .on-site .lang-pt.site-today-layout,html[lang="pt"] .on-site .lang-en.site-today-layout{display:none!important}
+@media(max-width:800px){html[lang="en"] .on-site .lang-en.site-today-layout,html[lang="pt"] .on-site .lang-pt.site-today-layout{display:flex;flex-direction:column;gap:22px}.on-site .site-today-text{display:contents}.on-site .site-today-text h2{order:0}.on-site .site-today-photo{position:static;order:1;width:100%}.on-site .site-today-text p{order:2}.on-site .site-today-photo img{max-height:420px;object-fit:cover}}
