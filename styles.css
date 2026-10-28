@@ -83,3 +83,7 @@ html[lang="en"] .on-site .lang-pt.site-today-layout,html[lang="pt"] .on-site .la
 .intro-with-birds{grid-template-columns:minmax(0,.85fr) minmax(0,1.2fr);gap:35px 65px}.intro-with-birds .migration-photo{grid-column:1/-1;max-width:900px;margin:10px auto 0}.intro-with-birds .migration-photo img{width:100%;height:auto;max-height:650px;object-fit:contain}
 .cards .card{box-shadow:none;cursor:default;background:transparent;border:0;border-top:2px solid #d2d7d2;border-radius:0;padding-top:12px}.cards .card img{border-radius:8px;pointer-events:none}.cards .card:hover{transform:none;box-shadow:none}
 @media(max-width:800px){.antiga-lota-gallery{grid-template-columns:1fr;margin:20px 0 12px}.antiga-lota-gallery img,.antiga-lota-gallery .gallery-wide img{width:100%;height:auto;max-height:none;object-fit:contain}.map-evidence{padding-top:28px}.intro-with-birds{display:flex;flex-direction:column;gap:22px}.intro-with-birds .migration-photo{margin:0}.cards .card{display:grid;grid-template-columns:100px minmax(0,1fr);gap:15px;align-items:start}.cards .card img{width:100px;height:90px;object-fit:cover}.cards .card h3{margin-top:0}}
+
+/* Bilingual metadata labels: only one language at a time, inline within captions and links */
+html[lang="en"] .bilingual-inline.lang-en,html[lang="pt"] .bilingual-inline.lang-pt{display:inline}
+html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang-en{display:none}
