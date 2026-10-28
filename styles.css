@@ -111,3 +111,10 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 #site-today figure.site-today-photo figcaption,
 #site-map figure.site-map-landscape figcaption{margin:8px 0 0!important;font-size:.82rem!important;line-height:1.45!important}
 @media(max-width:760px){#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:min(100%,390px)!important;max-width:390px!important;margin:18px auto!important}#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{height:145px!important;max-height:145px!important}}
+
+/* Author portrait aligned beneath the left-hand About heading */
+.intro-with-birds{display:grid!important;grid-template-columns:minmax(0,.92fr) minmax(0,1.2fr)!important;gap:clamp(24px,4vw,64px)!important;align-items:start}
+.intro-with-birds .migration-photo{grid-column:auto!important;max-width:360px!important;width:100%!important;margin:26px 0 0!important}
+.intro-with-birds .migration-photo img{width:100%!important;height:215px!important;max-height:215px!important;object-fit:cover!important;object-position:center 55%;border-radius:10px}
+.intro-with-birds .migration-photo figcaption{font-size:.78rem;line-height:1.48;margin-top:8px}
+@media(max-width:760px){.intro-with-birds{display:flex!important;flex-direction:column!important;gap:20px!important}.intro-with-birds .migration-photo{max-width:330px!important;margin:16px auto 0!important}.intro-with-birds .migration-photo img{height:175px!important;max-height:175px!important}}
