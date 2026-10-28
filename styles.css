@@ -103,49 +103,9 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 /* Modest horizontal field photograph for geographical context */
 .site-map-landscape{margin:24px 0 18px;max-width:800px}.site-map-landscape img{display:block;width:100%;height:clamp(185px,24vw,285px);object-fit:cover;object-position:center 58%;border-radius:12px}.site-map-landscape figcaption{font-size:.85rem;color:#58635e;line-height:1.55;margin:9px 2px 0}@media(max-width:760px){.site-map-landscape{margin:18px 0 16px}.site-map-landscape img{height:190px}}
 
-/* Final compact inline editorial images — override earlier full-width rules */
-#site-today figure.site-today-photo,
-#site-map figure.site-map-landscape{box-sizing:border-box!important;display:block!important;float:none!important;position:static!important;width:min(100%,540px)!important;max-width:540px!important;margin:24px auto 22px!important;padding:0!important;min-width:0!important}
-#site-today figure.site-today-photo img,
-#site-map figure.site-map-landscape img{display:block!important;box-sizing:border-box!important;width:100%!important;height:190px!important;max-height:190px!important;min-height:0!important;aspect-ratio:auto!important;object-fit:cover!important;object-position:center 65%!important;border-radius:10px!important}
-#site-today figure.site-today-photo figcaption,
-#site-map figure.site-map-landscape figcaption{margin:8px 0 0!important;font-size:.82rem!important;line-height:1.45!important}
-@media(max-width:760px){#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:min(100%,390px)!important;max-width:390px!important;margin:18px auto!important}#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{height:145px!important;max-height:145px!important}}
 
-/* Author portrait aligned beneath the left-hand About heading */
-.intro-with-birds{display:grid!important;grid-template-columns:minmax(0,.92fr) minmax(0,1.2fr)!important;gap:clamp(24px,4vw,64px)!important;align-items:start}
-.intro-with-birds .migration-photo{grid-column:auto!important;max-width:360px!important;width:100%!important;margin:26px 0 0!important}
-.intro-with-birds .migration-photo img{width:100%!important;height:215px!important;max-height:215px!important;object-fit:cover!important;object-position:center 55%;border-radius:10px}
-.intro-with-birds .migration-photo figcaption{font-size:.78rem;line-height:1.48;margin-top:8px}
-@media(max-width:760px){.intro-with-birds{display:flex!important;flex-direction:column!important;gap:20px!important}.intro-with-birds .migration-photo{max-width:330px!important;margin:16px auto 0!important}.intro-with-birds .migration-photo img{height:175px!important;max-height:175px!important}}
-
-/* Wide, shallow panoramic image aligned to the article text */
-#site-today figure.site-today-photo{width:100%!important;max-width:100%!important;margin:22px 0 24px!important}
-#site-today figure.site-today-photo img{width:100%!important;height:clamp(200px,23vw,270px)!important;max-height:270px!important;object-fit:cover!important;object-position:center 70%!important}
-@media(max-width:760px){#site-today figure.site-today-photo{width:100%!important;max-width:100%!important;margin:18px 0 20px!important}#site-today figure.site-today-photo img{height:175px!important;max-height:175px!important}}
-
-/* Match the second horizontal photo to the full article width */
-#site-map figure.site-map-landscape{width:100%!important;max-width:100%!important;margin:22px 0 24px!important}
-#site-map figure.site-map-landscape img{width:100%!important;height:clamp(200px,23vw,270px)!important;max-height:270px!important;object-fit:cover!important;object-position:center 65%!important}
-@media(max-width:760px){#site-map figure.site-map-landscape{width:100%!important;max-width:100%!important;margin:18px 0 20px!important}#site-map figure.site-map-landscape img{height:175px!important;max-height:175px!important}}
-
-/* FINAL photo composition reset — natural ratio, no letterboxing */
-#site-today figure.site-today-photo,#site-map figure.site-map-landscape{display:block!important;position:static!important;float:none!important;width:100%!important;max-width:100%!important;margin:22px 0 20px!important;padding:0!important}
-#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
-#site-today figure.site-today-photo figcaption,#site-map figure.site-map-landscape figcaption{max-width:100%;margin:8px 0 0!important}
-#site-today .antiga-lota-gallery{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;align-items:start!important;margin:20px 0 24px!important}
-#site-today .antiga-lota-gallery figure{width:100%!important;min-width:0!important;margin:0!important;grid-column:auto!important}
-#site-today .antiga-lota-gallery img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
-@media(max-width:760px){#site-today .antiga-lota-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}#site-today figure.site-today-photo,#site-map figure.site-map-landscape{margin:16px 0!important}}
-
-/* Featured Antiga Lota photo: show full original, never crop buildings */
-.feature-grid figure{width:100%;max-width:690px;margin:0 auto!important;min-width:0}
-.feature-grid figure img{display:block;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;background:transparent!important;border-radius:9px!important}
-@media(max-width:760px){.feature-grid figure{max-width:100%;margin:0!important}.feature-grid figure img{height:auto!important;max-height:none!important}}
-
-/* Balanced, uncropped photo sizes — three article sections */
-#antiga .feature-grid figure{width:100%!important;max-width:490px!important;margin:0 auto!important}
-#antiga .feature-grid figure img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:transparent!important}
-#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:100%!important;max-width:600px!important;margin:22px auto 24px!important}
-#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:transparent!important}
-@media(max-width:760px){#antiga .feature-grid figure,#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:100%!important;max-width:100%!important;margin:18px auto!important}}
+/* Definitive compact image layout, October 28 */
+#site-today figure.site-today-photo,#site-map figure.site-map-landscape{position:static!important;display:block!important;float:none!important;box-sizing:border-box!important;width:440px!important;max-width:100%!important;margin:22px auto!important;padding:0!important}
+#site-today figure.site-today-photo img,#site-map figure.site-map-landscape img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:none!important;border-radius:9px!important}
+#site-today figure.site-today-photo figcaption,#site-map figure.site-map-landscape figcaption{font-size:.8rem!important;line-height:1.4!important;margin-top:7px!important}
+@media(max-width:760px){#site-today figure.site-today-photo,#site-map figure.site-map-landscape{width:100%!important;max-width:360px!important;margin:18px auto!important}}
