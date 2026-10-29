@@ -207,3 +207,7 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 /* Compact logo in header; preserve single-line brand name */
 .brand .brand-mark{width:44px;height:40px;object-fit:contain;display:block;flex:0 0 44px}
 @media(max-width:560px){.brand .brand-mark{width:37px;height:36px;flex-basis:37px}}
+
+/* Refined mark: wider shape gives reeds and birds breathing room at mobile size */
+.brand .brand-mark{width:52px;height:40px;flex-basis:52px;object-fit:contain}
+@media(max-width:560px){.brand .brand-mark{width:43px;height:36px;flex-basis:43px}}
