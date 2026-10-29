@@ -203,3 +203,7 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 .nature-choice-promo .nature-choice-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:14px 20px;background:#304f40;color:#fff!important;font-size:1rem;font-weight:700;text-decoration:none;border-radius:8px;line-height:1.4;transition:background .2s}
 .nature-choice-promo .nature-choice-button:hover,.nature-choice-promo .nature-choice-button:focus-visible{background:#203b2e}
 @media(max-width:760px){.nature-choice-promo{padding:30px 0}.nature-choice-promo .nature-choice-button{width:100%;max-width:100%;box-sizing:border-box;text-align:center;padding:14px 12px;font-size:.95rem}}
+
+/* Compact logo in header; preserve single-line brand name */
+.brand .brand-mark{width:44px;height:40px;object-fit:contain;display:block;flex:0 0 44px}
+@media(max-width:560px){.brand .brand-mark{width:37px;height:36px;flex-basis:37px}}
