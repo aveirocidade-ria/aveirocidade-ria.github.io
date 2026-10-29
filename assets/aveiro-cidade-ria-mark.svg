@@ -1,8 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 105" role="img" aria-label="Aveiro Cidade–Ria — water, reeds, birds and sun">
-<circle cx="80" cy="28" r="10" fill="#ce9799"/>
-<g fill="none" stroke="#3c596a" stroke-width="2.6" stroke-linecap="round"><path d="M33 16q5-5 10 0 5-6 11-6"/><path d="M18 26q5-4 9 0 5-5 10-5"/><path d="M45 8q4-4 8-1 5-5 10-4"/></g>
-<g fill="none" stroke-linecap="round"><path d="M5 56C27 43 42 47 60 54s26 6 38-1" stroke="#88a6c7" stroke-width="7"/><path d="M5 70c22-12 39-12 58-4s23 7 35-2" stroke="#91adc8" stroke-width="6.5"/><path d="M7 84c21-11 37-9 57-2s22 5 33-2" stroke="#adc3d5" stroke-width="5.5"/></g>
-<g stroke="#798369" stroke-width="2.7" stroke-linecap="round" fill="none"><path d="M97 100Q97 72 105 44"/><path d="M100 100Q105 78 113 61"/><path d="M93 99Q94 81 100 65"/><path d="M97 88q-9-7-9-15"/><path d="M100 87q8-6 13-6"/></g>
-<g fill="#b49a7d"><path d="M105 43q-5 5-7 15 6-4 8-11l3-9q-3 1-4 5Z"/><path d="M112 59q-7 5-9 17 8-7 11-17Z"/><path d="M100 64q-6 5-7 15 7-6 9-15Z"/></g>
-<g stroke="#b49a7d" stroke-width="1" fill="none" stroke-linecap="round"><path d="M105 45l-6 6m7-1-6 7m6-11 2-5m3 22-6 8m7-4-7 9m-6-8-5 7"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 95" aria-label="Aveiro Cidade–Ria logo">
+<circle cx="104" cy="20" r="9" fill="#ed9eaa"/>
+<g fill="none" stroke="#526d85" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M34 19q5-5 10 0q5-5 10-4"/><path d="M17 30q5-5 10 0q5-5 10-4"/><path d="M55 26q5-4 9 1q5-5 10-4"/>
+</g>
+<path d="M2 59 C23 44 43 45 63 53 C79 60 90 59 103 51 C82 67 63 62 47 57 C30 52 18 54 2 59Z" fill="#83b5d8"/>
+<path d="M3 72 C26 58 42 58 61 65 C79 73 91 71 103 64 C84 79 67 76 48 69 C31 64 18 66 3 72Z" fill="#638fc1"/>
+<path d="M12 83 C29 75 43 74 61 80 C79 87 90 86 103 79 C83 94 63 86 48 82 C33 78 24 81 12 83Z" fill="#b2d2e5"/>
+<g fill="#798467"><path d="M108 92 Q111 60 129 27 Q115 60 114 92Z"/><path d="M114 92 Q127 57 147 44 Q132 66 120 92Z"/><path d="M105 92 Q107 65 112 42 Q109 69 110 92Z"/><path d="M117 92 Q132 73 145 75 Q131 77 121 93Z"/><path d="M104 92 Q102 76 98 67 Q107 75 108 92Z"/></g>
+<g fill="#b48c6e">
+<path d="M128 25 Q133 9 145 3 Q140 16 130 30Z"/><path d="M121 39 Q124 22 136 16 Q132 33 123 43Z"/><path d="M138 51 Q142 38 149 35 Q148 48 138 57Z"/><path d="M131 65 Q136 51 147 47 Q143 63 132 68Z"/>
+</g>
+<g stroke="#b48c6e" stroke-width="1.4" stroke-linecap="round" fill="none"><path d="M129 29l12-18m-10 15 10-9m-13 11 13-7m-18 17 10-14m-9 15 8-10m6 27 8-13m-7 16 7-9m-15 25 10-13"/></g>
 </svg>
