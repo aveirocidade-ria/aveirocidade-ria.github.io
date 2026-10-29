@@ -179,3 +179,14 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 #heritage p, .nature-law-section .dossier p{font-size:clamp(1.08rem,1.35vw,1.18rem)!important;line-height:1.75!important}
 #heritage p.lead{font-size:clamp(1.15rem,1.55vw,1.25rem)!important}
 #heritage .reference-strip, .nature-law-section .reference-strip{font-size:.94rem}
+
+/* Alternative conservation choices: compact editorial comparison, no copyrighted image embeds */
+#alternatives .alternative-stories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px;margin:32px 0 26px}
+#alternatives .alternative-stories article{border-top:2px solid #a4b6ab;background:#f7f6f2;padding:23px 25px;min-width:0}
+#alternatives .alternative-stories h3{font-family:Georgia,serif;font-size:clamp(1.3rem,2vw,1.7rem);line-height:1.25;margin:10px 0 17px}
+#alternatives .alternative-stories p{font-size:1.02rem;line-height:1.72;margin:0 0 15px}
+#alternatives .alternative-stories .alternative-source{font-size:.84rem;line-height:1.65;margin-top:20px}
+#alternatives .alternative-place{font-size:.75rem;letter-spacing:.11em;color:#8c6470;font-weight:700}
+#alternatives .alternative-conclusion{font-size:1.13rem;line-height:1.7;max-width:900px;padding:18px 0 18px 22px;border-left:3px solid #b77c87}
+#alternatives .alternative-photo-note{font-size:.84rem;color:#60706a;margin-top:22px}
+@media(max-width:760px){#alternatives .alternative-stories{grid-template-columns:1fr;gap:14px}#alternatives .alternative-stories article{padding:18px 18px}}
