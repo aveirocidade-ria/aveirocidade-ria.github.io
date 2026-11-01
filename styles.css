@@ -221,12 +221,12 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 .quick-context{padding-top:75px;padding-bottom:55px}.quick-context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.quick-context-grid article{background:#fff;border:1px solid #e4dfd9;border-radius:9px;padding:25px 22px;display:flex;flex-direction:column}.quick-context-grid h3{font-size:1.23rem;margin:14px 0}.quick-context-grid p{color:#5d6765;flex:1;margin:0 0 14px}.quick-context-grid a,.opening-gallery-link{font-size:.89rem;font-weight:700;color:#975c67}.quick-no{font-size:.75rem;color:#a67178;letter-spacing:.15em}.context-caveat{color:#69716e;font-size:.83rem;max-width:900px;margin-top:22px}.opening-gallery{padding-top:25px;padding-bottom:70px}.opening-gallery p{max-width:800px}.opening-photos{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:15px;margin-top:26px}.opening-photos figure{margin:0;min-width:0}.opening-photos img{display:block;width:100%;height:240px;object-fit:cover;border-radius:7px}.opening-photos figcaption{font-size:.77rem;color:#606d68;padding:8px 2px;line-height:1.5}@media(max-width:800px){.quick-context-grid{grid-template-columns:1fr}.opening-photos{grid-template-columns:1fr 1fr}.opening-photos figure:first-child{grid-column:1/-1}}@media(max-width:600px){.revised-home-hero{background-position:54% center}.revised-home-hero .hero-overlay{background:linear-gradient(180deg,rgba(251,248,244,.97),rgba(251,248,244,.86) 65%,rgba(251,248,244,.45))}.revised-home-hero h1{font-size:clamp(2rem,8.3vw,3.15rem)}.revised-home-hero .hero-content p{font-size:1rem}.revised-home-hero .hero-content{padding-top:45px;padding-bottom:65px}.revised-home-hero .actions .btn{padding:11px 17px}.quick-context{padding-top:45px}.opening-photos{grid-template-columns:1fr}.opening-photos figure:first-child{grid-column:auto}.opening-photos img{height:auto;max-height:390px;object-fit:contain}}
 
 /* Nature has value beyond real-estate views — homepage statement */
-.ria-belongs{position:relative;isolation:isolate;overflow:hidden;background:#85759a;color:#fff;padding:68px 0 72px}
-.ria-belongs::before{content:"";position:absolute;inset:-32px;z-index:0;pointer-events:none;background:url("Aveiro%20Field%20Gallery/photos/IMG_2806.jpg") center 56%/cover no-repeat;filter:blur(22px) saturate(.8)}
-.ria-belongs::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(105deg,rgba(53,57,92,.78) 0%,rgba(99,91,133,.64) 42%,rgba(154,112,139,.57) 75%,rgba(92,74,107,.66) 100%)}
+.ria-belongs{position:relative;isolation:isolate;overflow:hidden;background:#617999;color:#f8eee9;padding:68px 0 72px}
+.ria-belongs::before{content:"";position:absolute;inset:-32px;z-index:0;pointer-events:none;background:url("Aveiro%20Field%20Gallery/photos/IMG_2806.jpg") center 56%/cover no-repeat;filter:blur(24px) saturate(.66) brightness(.78)}
+.ria-belongs::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(105deg,rgba(40,64,99,.85) 0%,rgba(72,97,139,.73) 42%,rgba(92,113,151,.60) 72%,rgba(61,80,118,.73) 100%)}
 .ria-belongs-inner{max-width:1050px;position:relative;z-index:2}
-.ria-belongs .section-kicker{color:#f0d9e4}
-.ria-belongs h2{font-size:clamp(1.85rem,3.7vw,3.4rem);line-height:1.28;max-width:980px;margin:19px 0 24px;color:#fff}
-.ria-belongs h2 span{color:#f4e4f2}
-.ria-belongs p{max-width:810px;font-size:1.13rem;line-height:1.75;color:#fff}
+.ria-belongs .section-kicker{color:#eadad4}
+.ria-belongs h2{font-size:clamp(1.85rem,3.7vw,3.4rem);line-height:1.28;max-width:980px;margin:19px 0 24px;color:#f8eee9}
+.ria-belongs h2 span{color:#f2e4df}
+.ria-belongs p{max-width:810px;font-size:1.13rem;line-height:1.75;color:#f5ede8}
 @media(max-width:600px){.ria-belongs{padding:48px 0 54px}.ria-belongs h2{font-size:clamp(1.6rem,7.5vw,2.5rem)}.ria-belongs p{font-size:1rem}}
