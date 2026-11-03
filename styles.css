@@ -230,3 +230,17 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 .ria-belongs h2 span{color:#f2e4df}
 .ria-belongs p{max-width:810px;font-size:1.13rem;line-height:1.75;color:#f5ede8}
 @media(max-width:600px){.ria-belongs{padding:48px 0 54px}.ria-belongs h2{font-size:clamp(1.6rem,7.5vw,2.5rem)}.ria-belongs p{font-size:1rem}}
+
+/* Closing invitation: an original bird photograph beneath a twilight-blue veil. */
+.final-action-banner{position:relative;isolation:isolate;overflow:hidden;background:#354c70;color:#f7ede5;padding:clamp(56px,8vw,112px) 0}
+.final-action-banner::before{content:"";position:absolute;inset:-24px;z-index:-2;background:url("assets/flock_oct_2026.jpg") center 45%/cover no-repeat;filter:blur(5px) saturate(.6) brightness(.72)}
+.final-action-banner::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,rgba(37,58,88,.9) 0%,rgba(64,85,124,.82) 54%,rgba(72,80,116,.75) 100%)}
+.final-action-inner{position:relative;max-width:1050px}
+.final-action-link{color:#f7ede5;text-decoration:none;display:block;border:1px solid rgba(255,242,232,.45);border-radius:18px;padding:clamp(24px,4vw,44px);transition:background-color .2s ease,border-color .2s ease,transform .2s ease}
+.final-action-link:hover,.final-action-link:focus-visible{color:#fff7ed;background:rgba(255,255,255,.1);border-color:rgba(255,242,232,.9);transform:translateY(-2px)}
+.final-action-link:focus-visible{outline:3px solid #f4e5dd;outline-offset:4px}
+.final-action-kicker{display:block;color:#ead5d2;font-size:.78rem;font-weight:700;letter-spacing:.14em;margin-bottom:17px}
+.final-action-title{display:block;color:#f9ede5;font-size:clamp(2rem,4.3vw,3.8rem);font-weight:700;line-height:1.15;margin-bottom:17px}
+.final-action-description{display:block;font-size:clamp(1.05rem,2vw,1.35rem);line-height:1.6;color:#f5e7df;margin-bottom:26px}
+.final-action-cta{display:inline-flex;align-items:center;gap:12px;border-bottom:1px solid currentColor;padding-bottom:7px;color:#f7e8dc;font-weight:700}
+@media(max-width:650px){.final-action-banner{padding:48px 0}.final-action-link{border-radius:14px}.final-action-title{font-size:clamp(1.85rem,8vw,2.6rem)}}
