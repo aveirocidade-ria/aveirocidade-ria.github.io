@@ -250,3 +250,27 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 
 /* A25 investigation across the City–Ria project */
 .a25-home-link{background:#f0f1f5;border-block:1px solid #d9dce7;padding:clamp(38px,5vw,70px) 0}.a25-home-link h2{margin:10px 0 15px;max-width:830px}.a25-home-link p{max-width:870px;color:#505b63;font-size:1.04rem}.a25-home-link .btn{margin-top:10px}.log-status.draft{background:#f1edf5;color:#6d577b}.a25-intro{padding-top:clamp(60px,8vw,100px);padding-bottom:70px}.a25-intro h1{max-width:950px}.a25-intro p{max-width:850px}.a25-topic-links{display:flex;gap:18px;flex-wrap:wrap;font-size:.93rem}.a25-topic-links>a{color:#73526b;font-weight:700}.a25-resources{display:flex;flex-wrap:wrap;gap:13px;margin-top:28px}.a25-resources>a{padding:12px 17px;border:1px solid #d8d9df;border-radius:10px;background:#fff;text-decoration:none;font-size:.88rem}.a25-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.a25-cards article{background:white;border:1px solid #e3dedc;border-radius:12px;padding:22px}.a25-cards article h3{font-size:1.09rem}.a25-cards article p{font-size:.91rem;color:#566069;margin-bottom:0}.a25-disclaimer{font-size:.84rem;color:#6c7178;max-width:850px;margin-top:24px}@media(max-width:760px){.a25-cards{grid-template-columns:1fr}.a25-resources{flex-direction:column}.a25-resources>a{display:block}.a25-intro{padding-top:50px}.a25-home-link p{font-size:.97rem}}
+
+/* Typography system: single readable scale across the entire Aveiro Cidade–Ria website.
+   Headlines keep their hierarchy; paragraphs, cards and notes no longer shrink unpredictably. */
+:root{--text-body:18px;--text-lead:20px;--text-meta:14px}
+html{font-size:var(--text-body);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-size:1rem;line-height:1.75}
+main p,main li{line-height:1.75}
+main p{margin-top:0;margin-bottom:1.15em}
+main :is(.feature-text p,.intro p,.card p,.impact-grid p,.a25-cards article p,.a25-home-link p,.a25-intro p,.site-today-text p,.quick-context p,.on-site p,.action-log-heading .lead,.a25-resources>a){font-size:1rem;line-height:1.75}
+main :is(.lead,.hero-content p,.ria-belongs p,.final-action-description){font-size:var(--text-lead);line-height:1.7}
+main :is(.disclaimer,.a25-disclaimer,.footnote,.action-log-notes,.info-note small){font-size:var(--text-meta);line-height:1.65}
+main :is(.section-kicker,.eyebrow,.tiny-stamp,.photo-credit,.number,figcaption){font-size:var(--text-meta);line-height:1.55}
+main :is(.card h3,.a25-cards h3){font-size:1.18rem}
+main :is(.sources a,.a25-resources a,.quick-context a){line-height:1.55}
+main :is(.action-log-table,.updates,.timeline){font-size:1rem}
+main .action-log-table :is(th,td){line-height:1.6}
+@media(max-width:700px){
+ :root{--text-body:18px;--text-lead:19px;--text-meta:14px}
+ .container{padding-left:22px;padding-right:22px}
+ main :is(.lead,.hero-content p,.ria-belongs p,.final-action-description){font-size:var(--text-lead);line-height:1.68}
+ main :is(.quick-context p,.card p,.a25-cards article p,.a25-home-link p){font-size:1rem}
+ main :is(.a25-disclaimer,.disclaimer,.footnote,.action-log-notes){font-size:var(--text-meta)}
+ main :is(.a25-resources a,.btn){font-size:16px}
+}
