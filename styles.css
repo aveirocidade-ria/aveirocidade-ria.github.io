@@ -314,3 +314,6 @@ main .action-log-table :is(th,td){line-height:1.6}
 
 /* Full-frame gallery: preserve original photo composition and birds in flight */
 .a25-archive-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));align-items:start;gap:20px}.a25-archive-item{margin:0;min-width:0}.a25-archive-item a{display:block;background:#eeece9;border-radius:10px;overflow:hidden}.a25-archive-item img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border-radius:0}.a25-archive-item figcaption{padding:9px 2px 2px;font-size:14px;color:#5b626b;line-height:1.5;overflow-wrap:normal}
+
+/* Preserve the complete field photograph in story cards, including the foreground bench */
+.a25-story-beats .a25-beat-photo{background:#eae8e4}.a25-story-beats .a25-beat-photo img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center;transform:none}.a25-story-beats .a25-beat-photo:hover img{transform:none}
