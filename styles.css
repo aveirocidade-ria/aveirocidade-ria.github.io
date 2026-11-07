@@ -331,3 +331,7 @@ main .action-log-table :is(th,td){line-height:1.6}
 .a25-history .a25-year{color:#8f4f5b;background:#f8e9e5;font-family:'DM Sans',Arial,sans-serif;font-weight:700}
 .a25-history .a25-key-finding{color:#8f4f5b;background:linear-gradient(transparent 65%,#f6dedc 65%)}
 @media(max-width:600px){.a25-history h2.a25-research-heading{font-size:2.15rem;margin:38px 0 24px}.a25-history .a25-central-question{padding:16px}}
+
+/* A25: cards follow their own content height; no empty stretched panels */
+.a25-story-beats{align-items:start!important;grid-auto-rows:max-content!important}
+.a25-story-beats>article{align-self:start!important;height:auto!important;min-height:0!important}
