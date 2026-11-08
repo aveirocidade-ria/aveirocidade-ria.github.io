@@ -16,7 +16,19 @@
 .guide-links a{display:block;padding:16px;background:white;border:1px solid #ddd5e5;border-radius:12px;text-decoration:none}
 .action-log{scroll-margin-top:86px}
 .action-log-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-@media(max-width:760px){.orientation-grid,.guide-links{grid-template-columns:1fr}.orientation-grid article{padding:21px}.orientation{padding:37px 0}.guide-links{gap:8px}}
+@media(max-width:760px){
+.orientation-grid,.guide-links{grid-template-columns:1fr}.orientation-grid article{padding:21px}.orientation{padding:37px 0}.guide-links{gap:8px}
+.action-log-scroll{overflow:visible}
+.action-log-table,.action-log-table tbody,.action-log-table tr,.action-log-table td{display:block;width:100%;min-width:0}
+.action-log-table thead{display:none}
+.action-log-table tr{background:#fff;border:1px solid #ded9e4;border-radius:15px;padding:14px 17px;margin:0 0 13px;box-shadow:0 3px 12px rgba(52,42,74,.035)}
+.action-log-table td{padding:6px 0!important;border:0!important;line-height:1.52}
+.action-log-table td:nth-child(1){font-size:.82rem;color:#655878;font-weight:700}
+.action-log-table td:nth-child(2){font-size:1.02rem}
+.action-log-table td:nth-child(3){font-size:.94rem}
+.action-log-table td:nth-child(4),.action-log-table td:nth-child(5){font-size:.9rem}
+.action-log-table td:nth-child(5){border-top:1px solid #e8e3ed!important;padding-top:10px!important;margin-top:5px}
+}
 </style></head><body>
 <header class="header"><div class="nav-shell"><a aria-label="Aveiro Cidade Ria" class="brand" href="#home"><img class="brand-mark" src="assets/aveiro-cidade-ria-mark.svg?v=original-waves" width="44" height="40" alt="" aria-hidden="true"/><span>Aveiro Cidade–Ria</span></a><nav class="menu" id="menu">
 <a data-i18n="navhome" href="#home">Home</a>
