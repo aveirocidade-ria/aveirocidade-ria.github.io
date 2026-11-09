@@ -110,52 +110,62 @@ html[lang="en"] .site-extra-links .lang-en,html[lang="pt"] .site-extra-links .la
 html{scroll-behavior:smooth}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style><style>
-/* Soft lagoon-blue editorial palette with warm ivory */
-:root{--ink:#323942;--muted:#5e6970;--violet:#55748a;--line:#dce4e6;--paper:#fdfbf8}
-body{color:var(--ink)}
-a{color:#426781}
-.hero{background:linear-gradient(135deg,#f7f4f0 0%,#edf3f6 58%,#f6f1ea 100%);padding:clamp(44px,6vw,80px) 0 clamp(48px,6vw,78px)}
-.hero-layout{display:flex;flex-direction:column;gap:30px;align-items:stretch}
+/* Ria sunset palette: dusty rose, pale blue and warm ivory */
+:root{--ink:#343843;--muted:#666878;--violet:#a36878;--line:#e8dce1;--paper:#fffcf8}
+body{color:var(--ink);background:var(--paper)}
+a{color:#94586d}
+.hero{background:linear-gradient(138deg,#fdf7f1 0%,#f2e7e8 35%,#e9edf7 69%,#faf3ed 100%);padding:clamp(44px,6vw,80px) 0 clamp(48px,6vw,78px);overflow:hidden}
+.hero-layout{display:flex;flex-direction:column;gap:28px;align-items:stretch}
 .hero-text{width:100%;max-width:920px;margin:0 auto}
 .hero-text h1{max-width:900px;font-size:clamp(2.2rem,4.9vw,4.4rem);line-height:1.22}
-.hero-text h1 strong{color:#54758b}
+.hero-text h1 strong{color:#a16b7d}
 .hero-text .lead{max-width:820px}
-.hero-sub{max-width:820px;color:#566674}
-.hero-text .lead strong{color:#3f6279}
-.hero-photo{height:auto;max-height:none;width:100%;max-width:1080px;margin:0 auto;overflow:hidden;border-radius:18px;box-shadow:0 12px 36px rgba(60,79,97,.11)}
-.hero-photo img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center}
-.credit{bottom:12px;right:12px}
-.kicker{color:#728494}
-.btn,.action-main{background:#55748a;border-color:#55748a;color:#fff}
-.btn.secondary{background:transparent;color:#42657c;border-color:#8da6b5}
-.langswitch button[aria-pressed=true]{background:#55748a;color:#fff}
-.official-quote{background:#eef2f5;border-color:#91aabd}
-.official-quote .statement,.story .highlight,.story .letter strong,.action-focus h3,.final-line strong{color:#4e7089}
-.simple-contrast article:first-child,.story .letter,.action-secondary{background:#f0f4f6}
-.final-line,.participate,.national-call{background:linear-gradient(125deg,#ebf1f5,#f8f1e9)}
-.action-focus{border-color:#d9e3e9}
-.footer{background:#e9edf0}
-.story .letter a,.sources details summary,.email-preview summary,.email-preview button,.site-extra-links a{color:#4b6c84}
+.hero-sub{max-width:820px;color:#686472}
+.hero-text .lead strong{color:#805467}
+.hero-photo{position:relative;height:auto;max-height:none;width:100%;max-width:1080px;margin:0 auto;overflow:hidden;border-radius:16px;box-shadow:none!important;background:transparent;border:0;line-height:0}
+.hero-photo img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;filter:none;opacity:1}
+.hero-photo::before,.hero-photo::after{content:none!important;display:none!important}
+.credit{bottom:12px;right:12px;line-height:1.3;background:rgba(255,252,248,.88);color:#4a4650}
+.kicker{color:#a1707f}
+.btn,.action-main{background:#995f70;border-color:#995f70;color:#fff}
+.btn.secondary{background:rgba(255,255,255,.3);color:#7e4e62;border-color:#b99aa6}
+.langswitch button[aria-pressed=true]{background:#995f70;color:#fff}
+.official-quote{background:#f5edf0;border-color:#c69eae}
+.official-quote .statement,.story .highlight,.story .letter strong,.action-focus h3,.final-line strong{color:#945f73}
+.simple-contrast article:first-child,.story .letter,.action-secondary{background:#f9f1f3}
+.final-line,.participate,.national-call{background:linear-gradient(125deg,#f0eaf4,#faefea)}
+.action-focus{border-color:#eadce2}
+.footer{background:#f1e9ed}
+.story .letter a,.sources details summary,.email-preview summary,.email-preview button,.site-extra-links a{color:#85546c}
+.rightnav .home-link-nav{font-weight:700}
 @media(max-width:800px){
-.hero-layout{display:flex;flex-direction:column;gap:24px}
-.hero-photo{order:0;width:100%;height:auto;border-radius:13px}
+.hero-layout{display:flex;flex-direction:column;gap:22px}
+.hero-photo{order:0;width:100%;height:auto;border-radius:12px}
 .hero-photo img{height:auto;max-height:none}
-.hero{padding:34px 0 44px}
+.hero{padding:34px 0 42px}
 .hero-text h1{font-size:clamp(2.1rem,7vw,3.2rem)}
+.rightnav{gap:9px;flex-wrap:wrap;justify-content:flex-end}
+.rightnav>a.home-link-nav{display:inline-block!important}
+}
+@media(max-width:420px){
+.top-inner{gap:7px}
+.rightnav{gap:5px}
+.rightnav .home-link-nav{font-size:.8rem}
+.langswitch button{padding:5px 8px}
 }
 </style></head>
 <body><span id="site-page-top" aria-hidden="true" style="position:absolute;top:0"></span>
-<header class="top"><div class="wrap top-inner"><a class="brand" href="index.html"><img src="assets/aveiro-cidade-ria-mark.svg" alt=""><span>Aveiro Cidade &amp; Ria</span></a><div class="rightnav"><a href="a25.html">A25</a><a href="index.html#antiga">Antiga Lota</a><div class="langswitch" role="group" aria-label="Language / Idioma"><button type="button" id="pt" aria-pressed="true">PT</button><button type="button" id="en" aria-pressed="false">EN</button></div></div></div></header>
+<header class="top"><div class="wrap top-inner"><a class="brand" href="index.html"><img src="assets/aveiro-cidade-ria-mark.svg" alt=""><span>Aveiro Cidade &amp; Ria</span></a><div class="rightnav"><a class="home-link-nav" href="index.html"><span class="lang-en">Home</span><span class="lang-pt">Início</span></a><a href="a25.html">A25</a><a href="antiga-lota.html">Antiga Lota</a><div class="langswitch" role="group" aria-label="Language / Idioma"><button type="button" id="pt" aria-pressed="true">PT</button><button type="button" id="en" aria-pressed="false">EN</button></div></div></div></header>
 <main>
 <section class="hero"><div class="wrap hero-layout">
 <div class="hero-text">
 <div class="lang-pt"><div class="kicker">AVEIRO CIDADE &amp; RIA · DECLARAÇÃO DE UMA RESIDENTE</div>
-<h1>A Ria é a alma de Aveiro<br><strong>Mas quem cuida dela de verdade</strong></h1>
+<h1>A Ria é a alma de Aveiro<br><strong>Mas quem cuida dela de verdade?</strong></h1>
 <p class="lead">A Ria aparece nos materiais turísticos, nas fotografias e nos discursos sobre Aveiro. É apresentada como uma das grandes riquezas da região. <strong>Mas há uma diferença entre mostrar a sua beleza e protegê-la nas decisões reais.</strong></p>
 <p class="hero-sub">Sou uma residente de Aveiro e pergunto-me: <strong>se esta paisagem é tão preciosa, porque é que as decisões sobre ela parecem contar outra história?</strong></p>
 <div class="hero-actions"><a class="btn" href="#declaracao">Ler a declaração ↓</a><a class="btn secondary" href="#participar">Participar ↓</a></div></div>
 <div class="lang-en"><div class="kicker">AVEIRO CIDADE &amp; RIA · A RESIDENT’S STATEMENT</div>
-<h1>The Ria is the soul of Aveiro<br><strong>But who is really looking after it</strong></h1>
+<h1>The Ria is the soul of Aveiro<br><strong>But who is really looking after it?</strong></h1>
 <p class="lead">The Ria features in tourism materials, photographs and descriptions of Aveiro. It is presented as one of the region’s greatest treasures. <strong>But showing off its beauty is not the same as protecting it through real decisions.</strong></p>
 <p class="hero-sub">I live in Aveiro, and I keep asking myself: <strong>if this landscape is so precious, why do the decisions affecting it seem to tell a different story?</strong></p>
 <div class="hero-actions"><a class="btn" href="#declaracao">Read the declaration ↓</a><a class="btn secondary" href="#participar">Take part ↓</a></div></div>
