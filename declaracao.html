@@ -100,8 +100,17 @@ p{margin:0 0 17px}strong{font-weight:700}
 .next-step h3,.help-other h3{font:400 clamp(1.15rem,2.4vw,1.55rem)/1.4 'Libre Baskerville',Georgia,serif;margin:10px 0 16px}
 .help-other{padding:25px 0 17px}.help-other p,.next-step p{line-height:1.78}
 @media(max-width:760px){.action-focus{padding:21px}.action-focus .participation-actions{flex-direction:column;align-items:stretch}.action-focus .btn{text-align:center}}
-.action-secondary{background:#faf8fd}.email-preview{border-bottom:1px solid #ddd5df}.participate .action-focus{margin-bottom:20px}.participate .action-focus h3{max-width:690px}.participate .next-step a{font-weight:700}.national-call{padding:64px 0;background:linear-gradient(124deg,#e8e7f5,#f8e9eb)}.national-call .narrow{max-width:800px}.national-call p{font-size:1.07rem;line-height:1.8;margin:15px 0 22px}.national-call h2{margin:12px 0 20px}.national-call .note{font-size:.84rem;color:#65616d}.national-call a.btn{margin-top:4px}@media(max-width:700px){.national-call{padding:47px 0}}</style></head>
-<body>
+.action-secondary{background:#faf8fd}.email-preview{border-bottom:1px solid #ddd5df}.participate .action-focus{margin-bottom:20px}.participate .action-focus h3{max-width:690px}.participate .next-step a{font-weight:700}.national-call{padding:64px 0;background:linear-gradient(124deg,#e8e7f5,#f8e9eb)}.national-call .narrow{max-width:800px}.national-call p{font-size:1.07rem;line-height:1.8;margin:15px 0 22px}.national-call h2{margin:12px 0 20px}.national-call .note{font-size:.84rem;color:#65616d}.national-call a.btn{margin-top:4px}@media(max-width:700px){.national-call{padding:47px 0}}</style><style>
+.site-extra-links{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center;justify-content:center;padding:18px 16px 25px;font-size:.94rem;line-height:1.55}
+.site-extra-links a{color:#5a4774;text-underline-offset:4px;font-weight:700}
+.site-extra-links a:focus-visible{outline:2px solid #5e497d;outline-offset:3px}
+.site-extra-links .site-extra-note{flex-basis:100%;text-align:center;font-size:.81rem;font-weight:400;color:#6e6873;margin:0}
+html[lang="en"] .site-extra-links .lang-pt,html[lang="pt"] .site-extra-links .lang-en{display:none!important}
+html[lang="en"] .site-extra-links .lang-en,html[lang="pt"] .site-extra-links .lang-pt{display:inline!important}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body><span id="site-page-top" aria-hidden="true" style="position:absolute;top:0"></span>
 <header class="top"><div class="wrap top-inner"><a class="brand" href="index.html"><img src="assets/aveiro-cidade-ria-mark.svg" alt=""><span>Aveiro Cidade &amp; Ria</span></a><div class="rightnav"><a href="a25.html">A25</a><a href="index.html#antiga">Antiga Lota</a><div class="langswitch" role="group" aria-label="Language / Idioma"><button type="button" id="pt" aria-pressed="true">PT</button><button type="button" id="en" aria-pressed="false">EN</button></div></div></div></header>
 <main>
 <section class="hero"><div class="wrap hero-layout">
@@ -295,7 +304,12 @@ Com os melhores cumprimentos,</pre><button type="button" id="copy-apa"><span cla
 <li><a href="https://www.cm-aveiro.pt/municipio/comunicacao/noticias/noticia/cma-adjudica-projeto-de-execucao-do-loteamento-da-antiga-lota-de-aveiro-por-730-mil-euros" target="_blank" rel="noopener noreferrer">Câmara Municipal de Aveiro · Projeto da Antiga Lota, 2025</a></li>
 <li><a href="https://asw.pt/jornais/Diario_Aveiro/DDA_1989-03-21.pdf" target="_blank" rel="noopener noreferrer">Diário de Aveiro · 21 março 1989</a></li>
 </ol></details></div></section>
-</main>
+<section class="site-extras-footer"><div class="site-extra-links" aria-label="Social links and navigation">
+<a href="https://www.instagram.com/aveirocidade.ria/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Aveiro Cidade Ria">Instagram · @aveirocidade.ria ↗</a>
+<a href="https://www.instagram.com/aveirocidade.ria/" target="_blank" rel="noopener noreferrer"><span class="lang-en">Contact me privately ↗</span><span class="lang-pt">Falar comigo em privado ↗</span></a>
+<a href="#site-page-top"><span class="lang-en">Back to top ↑</span><span class="lang-pt">Voltar ao topo ↑</span></a>
+<p class="site-extra-note"><span class="lang-en">Private messages via Instagram · No personal email address is published</span><span class="lang-pt">Mensagens privadas pelo Instagram · O email pessoal não é publicado</span></p>
+</div></section></main>
 <footer class="footer"><div class="wrap"><span><strong>Aveiro Cidade &amp; Ria</strong> · Iniciativa pessoal e independente de uma residente de Aveiro</span><a href="index.html"><span class="lang-pt">Voltar ao site ↑</span><span class="lang-en">Back to the website ↑</span></a></div></footer>
 <script>
 (()=>{const pt=document.getElementById('pt'),en=document.getElementById('en');function choose(lang){document.body.classList.toggle('en',lang==='en');document.documentElement.lang=lang;pt.setAttribute('aria-pressed',String(lang==='pt'));en.setAttribute('aria-pressed',String(lang==='en'));const u=new URL(location.href);u.searchParams.set('lang',lang);history.replaceState(null,'',u)}
