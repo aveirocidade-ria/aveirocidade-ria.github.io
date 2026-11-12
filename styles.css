@@ -213,8 +213,8 @@ html[lang="en"] .bilingual-inline.lang-pt,html[lang="pt"] .bilingual-inline.lang
 @media(max-width:560px){.brand .brand-mark{width:43px;height:36px;flex-basis:43px}}
 
 /* Revised documentary-first homepage */
-.revised-home-hero{min-height:640px;background-image:url('Aveiro%20Field%20Gallery/photos/IMG_3054.jpg');background-position:center 47%}
-.revised-home-hero .hero-overlay{background:linear-gradient(90deg,rgba(251,248,244,.96) 0%,rgba(251,248,244,.84) 43%,rgba(251,248,244,.1) 100%)}
+.revised-home-hero{min-height:640px;background-image:url('flamingos%20in%20aveiro%20lagoon%20in%20front%20of%20A25.jpg');background-position:center 51%}
+.revised-home-hero .hero-overlay{background:linear-gradient(90deg,rgba(251,248,244,.95) 0%,rgba(251,248,244,.76) 43%,rgba(251,248,244,.03) 100%)}
 .revised-home-hero h1{font-size:clamp(2.2rem,4.2vw,4.75rem);max-width:860px;line-height:1.18}
 .revised-home-hero h1 span{color:#5b756a}
 .revised-home-hero .hero-content p{font:1.16rem/1.6 'DM Sans',Arial,sans-serif;max-width:615px}
