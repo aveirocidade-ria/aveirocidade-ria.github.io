@@ -11,9 +11,9 @@
 <style>
 .about-main{background:linear-gradient(145deg,#f7f5ef 0%,#f0f3ed 55%,#f8f3f0 100%);min-height:72vh}
 .about-container{max-width:1070px;margin:0 auto;padding:clamp(60px,8vw,112px) 32px clamp(70px,8vw,120px)}
-.about-layout{display:grid;grid-template-columns:220px minmax(0,1fr);align-items:start;gap:clamp(34px,6vw,84px)}
-.about-portrait{position:sticky;top:115px;display:flex;flex-direction:column;align-items:center;gap:16px;margin:6px 0 0}
-.about-portrait img{width:220px;height:220px;aspect-ratio:1;object-fit:cover;border-radius:50%;box-shadow:0 0 0 8px #fff,0 13px 35px rgba(41,72,54,.16)}
+.about-layout{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);align-items:start;gap:clamp(32px,5vw,70px)}
+.about-portrait{position:sticky;top:108px;display:flex;flex-direction:column;align-items:center;gap:12px;margin:5px 0 0;min-width:0}
+.about-portrait img{display:block;width:100%;height:auto;aspect-ratio:864/1536;object-fit:contain;border-radius:19px;border:5px solid #fff;box-shadow:0 13px 35px rgba(41,72,54,.16)}
 .about-portrait figcaption{font-size:.79rem;color:#67736c;text-align:center;line-height:1.55;margin-top:6px}
 .about-eyebrow{display:block;color:#8f6874;letter-spacing:.11em;font-weight:750;font-size:.77rem;margin-bottom:12px}
 .about-main h1{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(2.65rem,5.2vw,4.35rem);line-height:1.13;letter-spacing:-.04em;color:#33483d;margin:0 0 23px}
@@ -24,7 +24,7 @@
 .about-links a{display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid #cbd9cd;border-radius:999px;color:#355b47;font-size:.94rem;line-height:1.4;font-weight:750;text-decoration:none;padding:12px 20px;transition:background .2s ease,border-color .2s ease}
 .about-links a:hover,.about-links a:focus-visible{background:#e8f1e8;border-color:#8eae92}
 .about-footnote{margin-top:22px!important;font-size:.91rem!important;color:#69766d!important}
-@media(max-width:720px){.about-container{padding:45px 26px 80px}.about-layout{grid-template-columns:1fr;gap:36px}.about-portrait{position:static;align-items:center;margin:0}.about-portrait img{width:176px;height:176px}.about-main h1{text-align:left;font-size:clamp(2.35rem,9vw,3.1rem)}.about-main p{font-size:1.04rem;line-height:1.77}.about-links{flex-direction:column;align-items:stretch}.about-links a{justify-content:center}}
+@media(max-width:720px){.about-container{padding:45px 26px 80px}.about-layout{grid-template-columns:1fr;gap:36px}.about-portrait{position:static;align-items:center;margin:0}.about-portrait img{width:min(100%,310px);height:auto}.about-main h1{text-align:left;font-size:clamp(2.35rem,9vw,3.1rem)}.about-main p{font-size:1.04rem;line-height:1.77}.about-links{flex-direction:column;align-items:stretch}.about-links a{justify-content:center}}
 </style>
 </head>
 <body>
@@ -33,7 +33,7 @@
 <main class="about-main">
 <div class="about-container">
 <div class="about-layout">
-<figure class="about-portrait"><img src="assets/anna-kuzmina-about.webp" width="192" height="192" alt="Anna Kuzmina outdoors near the water" decoding="async"><figcaption><span class="lang-en">Anna Kuzmina · Aveiro</span><span class="lang-pt">Anna Kuzmina · Aveiro</span></figcaption></figure>
+<figure class="about-portrait"><img src="assets/anna-kuzmina-about-full.webp" width="240" height="427" alt="Anna Kuzmina outdoors by the water, with the landscape visible behind her" decoding="async"><figcaption><span class="lang-en">Anna Kuzmina · Aveiro</span><span class="lang-pt">Anna Kuzmina · Aveiro</span></figcaption></figure>
 <div class="about-copy">
 <div class="lang-en">
 <span class="about-eyebrow">THE PERSON BEHIND THIS PROJECT</span>
@@ -55,10 +55,11 @@
 </div>
 <div class="about-links">
 <a href="https://www.instagram.com/aveirocidade.ria/" target="_blank" rel="noopener noreferrer">Instagram · @aveirocidade.ria ↗</a>
+<a href="https://www.facebook.com/share/1Gh55BwG7B/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
 <a href="antiga-lota.html" class="lang-en">Explore the Ria project →</a><a href="antiga-lota.html?lang=pt" class="lang-pt">Conhecer o projeto da Ria →</a>
 <a href="taboeira.html?lang=en" class="lang-en">The forest in Taboeira →</a><a href="taboeira.html?lang=pt" class="lang-pt">O bosque da Taboeira →</a>
 </div>
-<p class="about-footnote"><span class="lang-en">You can send me a private message on Instagram.</span><span class="lang-pt">Pode enviar-me uma mensagem privada pelo Instagram.</span></p>
+<p class="about-footnote"><span class="lang-en">You can send me a private message on Instagram or Facebook.</span><span class="lang-pt">Pode enviar-me uma mensagem privada pelo Instagram ou Facebook.</span></p>
 </div>
 </div>
 </div>
