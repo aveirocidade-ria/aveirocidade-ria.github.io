@@ -579,7 +579,25 @@ body .tab-other-precedents .tab-golf-example{margin:8px 0 20px}
   <p>É uma observação direta na floresta existente, não um inventário científico, nem uma confirmação de que este ponto específico esteja dentro da UE-2. Não divulgo a localização exata para evitar perturbar os animais.</p>
   <p><strong>Porquê conservar o que já existe?</strong> No mesmo dia documentei uma extensa área desmatada nas proximidades, aparentemente na UE-1, enquanto as aves continuavam a cantar nas árvores junto à intervenção. Aqui já existe vida selvagem: aves, insetos, coelhos e agora estes dois mamíferos. A recuperação ecológica é importante, mas primeiro é preciso avaliar e preservar os habitats vivos antes de os transformar. A questão não é como criar espaços verdes depois de construir, mas quanto deste bosque existente ainda podemos proteger.</p>
  </div>
- <p style="margin:10px 0 0;font-size:.84rem;color:#526454"><span class="lang-en">Photographs and original video recorded by the author; species identification pending.</span><span class="lang-pt">Fotografias e vídeo original registados pela autora; identificação da espécie por confirmar.</span></p>
+ <div class="tab-mammal-gallery" aria-label="Three photographs of two wild mammals observed in Taboeira" style="margin:22px 0 10px">
+ <style>
+ .tab-mammal-gallery .tab-mammal-slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;gap:12px;scrollbar-width:thin;padding:0 0 8px}
+ .tab-mammal-gallery .tab-mammal-slides figure{flex:0 0 min(100%,540px);min-width:0;scroll-snap-align:center;margin:0;background:#fff;border:1px solid #dce5d7;border-radius:12px;overflow:hidden}
+ .tab-mammal-gallery .tab-mammal-slides img{display:block;width:100%;height:clamp(290px,60vw,510px);object-fit:contain;background:#e4e9e0}
+ .tab-mammal-gallery .tab-mammal-slides figcaption{font-size:.86rem;color:#4b6051;padding:10px 14px;line-height:1.5}
+ .tab-mammal-gallery .tab-mammal-nav{display:flex;align-items:center;gap:10px;justify-content:center;margin-top:12px}
+ .tab-mammal-gallery .tab-mammal-nav button{border:1px solid #c8d7c6;border-radius:100px;background:#fff;padding:9px 17px;color:#375641;cursor:pointer;font-size:.9rem}
+ .tab-mammal-gallery .tab-mammal-nav button:hover{background:#e0eadb}
+ @media(max-width:650px){.tab-mammal-gallery .tab-mammal-slides figure{flex-basis:100%}.tab-mammal-gallery .tab-mammal-slides img{height:420px}}
+ </style>
+ <div class="tab-mammal-slides" id="tab-mammal-slides" tabindex="0">
+  <figure><a href="assets/taboeira-mammals-2026-11-23-1.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/taboeira-mammals-2026-11-23-1.jpg" loading="lazy" alt="Two wild mammals walking together on a sandy path surrounded by trees and shrubs, Taboeira, November 2026"></a><figcaption><span class="lang-en">1 / 3 · Two animals walking together through the woodland</span><span class="lang-pt">1 / 3 · Dois animais a caminhar juntos pelo bosque</span></figcaption></figure>
+  <figure><a href="assets/taboeira-mammals-2026-11-23-2.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/taboeira-mammals-2026-11-23-2.jpg" loading="lazy" alt="Two small long-bodied mammals investigating the ground on a woodland track"></a><figcaption><span class="lang-en">2 / 3 · Exploring the ground along the path</span><span class="lang-pt">2 / 3 · A explorar o solo junto ao caminho</span></figcaption></figure>
+  <figure><a href="assets/taboeira-mammals-2026-11-23-3.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/taboeira-mammals-2026-11-23-3.jpg" loading="lazy" alt="Two wild mammals on a forest path, with trees and understory around them"></a><figcaption><span class="lang-en">3 / 3 · Woodland habitat around the animals</span><span class="lang-pt">3 / 3 · O habitat florestal à volta dos animais</span></figcaption></figure>
+ </div>
+ <div class="tab-mammal-nav"><button type="button" aria-label="Previous photograph" onclick="document.getElementById('tab-mammal-slides').scrollBy({left:-document.getElementById('tab-mammal-slides').clientWidth,behavior:'smooth'})">←</button><span class="lang-en" style="font-size:.85rem;color:#586b5e">Swipe to see all three photographs</span><span class="lang-pt" style="font-size:.85rem;color:#586b5e">Deslize para ver as três fotografias</span><button type="button" aria-label="Next photograph" onclick="document.getElementById('tab-mammal-slides').scrollBy({left:document.getElementById('tab-mammal-slides').clientWidth,behavior:'smooth'})">→</button></div>
+</div>
+<p style="margin:10px 0 0;font-size:.84rem;color:#526454"><span class="lang-en">Photographs and original video recorded by the author; species identification pending.</span><span class="lang-pt">Fotografias e vídeo original registados pela autora; identificação da espécie por confirmar.</span></p>
 </section>
 <div class="tab-salamander-story" id="tab-salamanders">
 <figure class="tab-salamander-photo">
